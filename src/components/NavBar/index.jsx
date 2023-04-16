@@ -5,17 +5,29 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <>
-      <div className="flex items">
-        <div>
-          <span>Tours</span>
+      <nav className="main-nav">
+        <div className="nav-items">
+          <div className="item">
+            <img
+              className="nav-img"
+              src="/underground.png"
+              alt="underground icon"
+            />
+          </div>
+          <div>
+            <span className="item">About</span>
+          </div>
+          <div>
+            <span className="item">Tours</span>
+          </div>
+          <div>
+            <span className="item">Guides</span>
+          </div>
+          <div>
+            <span className="item">Contact</span>
+          </div>
         </div>
-        <div>
-          <span>Guides</span>
-        </div>
-        <div>
-          <span>Contact</span>
-        </div>
-      </div>
+      </nav>
     </>
   );
 };
