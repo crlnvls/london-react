@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 .main-nav {
-  background-color: rgba(0, 0, 0, 0.416);
+  background-color: rgba(0, 0, 0, 0.889);
 }
 
 .nav-items {
@@ -19,6 +19,7 @@
 
 .item:hover {
   color: rgba(255, 255, 255, 0.775);
+  cursor: pointer;
 }
 
 .nav-img {
