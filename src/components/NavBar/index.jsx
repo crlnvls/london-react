@@ -15,16 +15,22 @@ const NavBar = () => {
             />
           </div>
           <div>
-            <span className="item">About</span>
+            <span className="item"></span>
           </div>
           <div>
-            <span className="item">Tours</span>
+            <a className="item" href="#explore">
+              Tours
+            </a>
           </div>
           <div>
-            <span className="item">Guides</span>
+            <a className="item" href="#guide">
+              Guides
+            </a>
           </div>
           <div>
-            <span className="item">Contact</span>
+            <a className="item" href="#footer">
+              Contact
+            </a>
           </div>
         </div>
       </nav>
