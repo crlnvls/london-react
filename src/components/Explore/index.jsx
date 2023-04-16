@@ -6,7 +6,7 @@ import ExploreImg from "../ExploreImg";
 const Explore = () => {
   return (
     <>
-      <div className="explore">
+      <div className="explore" id="explore">
         <div className="explore-heading">
           <p className="explore-item">Explore</p>
           <p className="culture-item">Culture & Royalty</p>
@@ -18,16 +18,20 @@ const Explore = () => {
         </div>
         <div className="img-flex">
           <ExploreImg
-            src={"/stpauls.jpg"}
-            alt={"St. Pauls Cathedral"}
-            text={"Text"}
+            src={"/bigben.jpg"}
+            alt={"Big Ben"}
+            text={"Historical London Walk"}
           />
           <ExploreImg
             src={"/fishchips.jpg"}
             alt={"Telephone box "}
-            text={"Text"}
+            text={"A Taste of London"}
           />
-          <ExploreImg src={"/harrods.jpg"} alt={"Harrods"} text={"Text"} />
+          <ExploreImg
+            src={"/harrods.jpg"}
+            alt={"Harrods"}
+            text={"Fashion Capital Tour:"}
+          />
         </div>
       </div>
     </>
