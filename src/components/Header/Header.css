@@ -1,0 +1,9 @@
+.header {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("london.jpg");
+  background-repeat: no-repeat, no-repeat;
+  opacity: 0.9;
+}
