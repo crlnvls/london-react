@@ -38,9 +38,11 @@
   background-color: black;
   color: white;
   border: 2px solid white;
+  transition: transform 0.2s ease-in-out;
 }
 
 .heading-btn:hover {
   color: rgba(255, 255, 255, 0.775);
   cursor: pointer;
+  transform: scale(1.05);
 }
