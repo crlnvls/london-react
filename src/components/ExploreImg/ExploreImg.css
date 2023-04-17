@@ -12,6 +12,7 @@
 .img-container:hover {
   transform: translateY(-20px);
   cursor: pointer;
+  filter: brightness(1.1);
 }
 
 .img-container::before {
