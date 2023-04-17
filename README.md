@@ -1,2 +1,3 @@
-# london-react
-React App to visit London
+# London Tourism 
+
+React landing page to visit London for the CGF JavaScript Course
