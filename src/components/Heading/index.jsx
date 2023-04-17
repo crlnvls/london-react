@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Heading.css";
+import Button from "../Button";
 
 const Heading = () => {
   return (
@@ -10,8 +11,12 @@ const Heading = () => {
         <p className="london-item">London</p>
       </div>
       <div className="buttons">
-        <button className="heading-btn">Book a guide</button>
-        <button className="heading-btn">Learn More</button>
+        <div className="heading-btn">
+          <Button text={"Book a tour"} />
+        </div>
+        <div className="heading-btn">
+          <Button text={"Learn More"} />
+        </div>
       </div>
     </>
   );
