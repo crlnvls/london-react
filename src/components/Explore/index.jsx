@@ -18,19 +18,19 @@ const Explore = () => {
         </div>
         <div className="img-flex">
           <ExploreImg
-            src={"/bigben.jpg"}
+            src={"/booth.jpg"}
             alt={"Big Ben"}
             text={"Historical London Walk"}
-          />
-          <ExploreImg
-            src={"/fishchips.jpg"}
-            alt={"Telephone box "}
-            text={"A Taste of London"}
           />
           <ExploreImg
             src={"/harrods.jpg"}
             alt={"Harrods"}
             text={"Fashion Capital Tour:"}
+          />
+          <ExploreImg
+            src={"/fishchips.jpg"}
+            alt={"Telephone box "}
+            text={"A Taste of London"}
           />
         </div>
       </div>
