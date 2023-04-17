@@ -5,15 +5,14 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <p className="bg-gray-100 text-center p-2 fixed inset-x-0 bottom-0">
-        2023 Ⓒ{" "}
-        <a
-          className="hover:underline"
-          href="https://github.com/crlnvls/react-chat"
-        >
-          Caroline Veloso
-        </a>
-      </p>
+      <div className="footer-div">
+        <img
+          className="footer-img"
+          src="/underground.png"
+          alt="underground icon"
+        />
+        <h3 className="footer-h">Contact Us</h3>
+      </div>
     </>
   );
 };
