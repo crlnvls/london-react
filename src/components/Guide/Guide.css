@@ -33,11 +33,47 @@
 }
 
 .guide-img {
-  width: 750px;
+  width: 700px;
   border-radius: 20px;
   margin-right: 20vh;
 }
 
 .cursive {
   font-family: "Satisfy", cursive;
+}
+
+@media screen and (max-width: 900px) {
+  .guide-flex {
+    padding-top: 5vh;
+    flex-direction: column-reverse;
+  }
+
+  .guide-img {
+    margin-right: 0;
+    margin-top: 5vh;
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .guide-heading {
+    width: 300px;
+  }
+  .guide-h {
+    font-size: 40px;
+  }
+
+  .guide-p {
+    font-size: 18px;
+  }
+  .guide-flex {
+    padding-top: 5vh;
+    flex-direction: column-reverse;
+  }
+
+  .guide-img {
+    margin-right: 0;
+    margin-top: 5vh;
+    width: 350px;
+  }
 }

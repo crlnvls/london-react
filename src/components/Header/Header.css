@@ -1,9 +1,23 @@
 .header {
   margin: 0;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("london.jpg");
   background-repeat: no-repeat, no-repeat;
   opacity: 0.9;
+  background-position: center;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    height: 90vh;
+    background-position: 60%;
+  }
 }

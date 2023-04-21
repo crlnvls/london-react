@@ -3,7 +3,7 @@
 .explore {
   margin: 0;
   background-color: rgba(0, 0, 0, 0.908);
-  height: 110vh;
+  height: 130vh;
   width: 100%;
 }
 
@@ -42,11 +42,31 @@
   align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
+  .explore {
+    height: 180vh;
+  }
+
   .img-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .explore {
+    height: 210vh;
+  }
+
+  .explore-item {
+    font-size: 50px;
+  }
+
+  .culture-item {
+    font-size: 50px;
+  }
+
+  .text-item {
+    font-size: 16px;
+    width: 400px;
   }
 }

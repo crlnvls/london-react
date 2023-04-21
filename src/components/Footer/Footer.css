@@ -32,3 +32,9 @@
 .info-footer:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .info-footer {
+    font-size: 14px;
+  }
+}

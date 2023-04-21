@@ -7,7 +7,7 @@ const Heading = () => {
   return (
     <>
       <div className="heading">
-        <p className="visit-item">Tour</p>
+        <p className="tour-item">Tour</p>
         <p className="london-item">London</p>
       </div>
       <div className="buttons">
