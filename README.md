@@ -2,7 +2,7 @@
 
 React landing page to visit London for the CGF JavaScript Course
 
-Demo: [https://react-f-u-n-facts.netlify.app/](https://react-f-u-n-facts.netlify.app/)
+Demo: [https://london-tour.netlify.app/](https://london-tour.netlify.app/)
 
 ## Installation & Usage
 
