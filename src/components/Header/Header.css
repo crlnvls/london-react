@@ -3,7 +3,7 @@
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://london-tour.netlify.app/assets/london.jpg");
+    url("/public/london.jpg");
   background-repeat: no-repeat, no-repeat;
   opacity: 0.9;
   background-position: center;
