@@ -28,7 +28,7 @@ const NavBar = () => {
             </a>
           </div>
           <div>
-            <a className="item" href="#footer">
+            <a className="item" href="#contact">
               Contact
             </a>
           </div>
