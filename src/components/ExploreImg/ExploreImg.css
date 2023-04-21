@@ -62,4 +62,18 @@
     height: 400px;
     margin: 30px;
   }
+
+  .text-overlay {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.798);
+    font-size: 30px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    width: 200px;
+  }
 }
